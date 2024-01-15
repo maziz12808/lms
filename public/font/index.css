@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "bela-bold";
+    src: url("/public/font/Belanosima-Bold.ttf");
+}
+@font-face {
+    font-family: "bela-regular";
+    src: url("/public/font/Belanosima-Regular.ttf");
+}
+
+@font-face {
+    font-family: "bela-semiBold";
+    src: url("/public/font/Belanosima-SemiBold.ttf");
+}
