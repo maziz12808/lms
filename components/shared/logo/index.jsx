@@ -4,7 +4,7 @@ import { Button } from "antd";
 const Logo = ({size=32})=>{
     return (
         <Button 
-            className="font-bold shadow-none border-0 w-fit"
+            className="flex items-center font-bold shadow-none border-0 w-fit"
             icon={<DingdingOutlined className="text-rose-500"/>} 
             style={
                 {
