@@ -1,6 +1,10 @@
+import LayoutEl from "../shared/layout";
+
 const Admin = ()=>{
     return (
-        <h1>Admin</h1>
+        <LayoutEl>
+            <h1>Admin</h1>
+        </LayoutEl>
     )
 }
 
