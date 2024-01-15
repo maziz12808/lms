@@ -7,6 +7,7 @@ import {
     Input,
     Divider
 } from "antd";
+import Link from "next/link";
 
 const { Item } = Form;
 
@@ -64,6 +65,13 @@ const Login = ()=>{
                     >
                         Continue with facebook
                     </Button>
+                    <Divider />
+                    <div className="flex gap-x-2 text-sm">
+                        <p className="">Don't have an account?</p>
+                        <Link href="/register" legacyBehavior>
+                            <a className=" text-indigo-900 font-semibold">Register Now</a>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </div>
